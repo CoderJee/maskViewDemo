@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF09D8681C7ECE9B00691B8B /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF09D8671C7ECE9B00691B8B /* MainTableViewController.m */; };
+		EF09D86B1C7ED06E00691B8B /* ViewControllerOne.m in Sources */ = {isa = PBXBuildFile; fileRef = EF09D86A1C7ED06E00691B8B /* ViewControllerOne.m */; };
+		EF09D86E1C7ED2DA00691B8B /* ViewControllerDemoTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = EF09D86D1C7ED2DA00691B8B /* ViewControllerDemoTwo.m */; };
+		EF09D8711C7ED37500691B8B /* ViewControllerDemoThree.m in Sources */ = {isa = PBXBuildFile; fileRef = EF09D8701C7ED37500691B8B /* ViewControllerDemoThree.m */; };
+		EF09D8741C7EE72600691B8B /* ViewControllerDemoFour.m in Sources */ = {isa = PBXBuildFile; fileRef = EF09D8731C7EE72600691B8B /* ViewControllerDemoFour.m */; };
+		EF09D8771C7EFAE800691B8B /* ViewControllerDemoFive.m in Sources */ = {isa = PBXBuildFile; fileRef = EF09D8761C7EFAE800691B8B /* ViewControllerDemoFive.m */; };
+		EF09D87A1C801DF700691B8B /* ViewControllerSix.m in Sources */ = {isa = PBXBuildFile; fileRef = EF09D8791C801DF700691B8B /* ViewControllerSix.m */; };
+		EF52BE351C72E5270031A476 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF52BE341C72E5270031A476 /* main.m */; };
+		EF52BE381C72E5270031A476 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF52BE371C72E5270031A476 /* AppDelegate.m */; };
+		EF52BE401C72E5270031A476 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF52BE3F1C72E5270031A476 /* Assets.xcassets */; };
+		EF52BE431C72E5270031A476 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF52BE411C72E5270031A476 /* LaunchScreen.storyboard */; };
+		EF52BE4E1C72E5270031A476 /* MaskViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF52BE4D1C72E5270031A476 /* MaskViewDemoUITests.m */; };
+		EF52BE7F1C72FF2C0031A476 /* UIColor+DDF.m in Sources */ = {isa = PBXBuildFile; fileRef = EF52BE6A1C72FF2C0031A476 /* UIColor+DDF.m */; };
+		EF52BE801C72FF2C0031A476 /* UIDevice+CJ.m in Sources */ = {isa = PBXBuildFile; fileRef = EF52BE6C1C72FF2C0031A476 /* UIDevice+CJ.m */; };
+		EF52BE811C72FF2C0031A476 /* UIImage+DDF.m in Sources */ = {isa = PBXBuildFile; fileRef = EF52BE6E1C72FF2C0031A476 /* UIImage+DDF.m */; };
+		EF52BE821C72FF2C0031A476 /* UINavigationBar+CJ.m in Sources */ = {isa = PBXBuildFile; fileRef = EF52BE701C72FF2C0031A476 /* UINavigationBar+CJ.m */; };
+		EF52BE831C72FF2C0031A476 /* UITabBar+badge.m in Sources */ = {isa = PBXBuildFile; fileRef = EF52BE721C72FF2C0031A476 /* UITabBar+badge.m */; };
+		EF52BE841C72FF2C0031A476 /* UIView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EF52BE741C72FF2C0031A476 /* UIView+AutoLayout.m */; };
+		EF52BE851C72FF2C0031A476 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = EF52BE761C72FF2C0031A476 /* UIView+Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF52BE4A1C72E5270031A476 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF52BE281C72E5270031A476 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF52BE2F1C72E5270031A476;
+			remoteInfo = MaskViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF09D8661C7ECE9B00691B8B /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		EF09D8671C7ECE9B00691B8B /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		EF09D8691C7ED06E00691B8B /* ViewControllerOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerOne.h; sourceTree = "<group>"; };
+		EF09D86A1C7ED06E00691B8B /* ViewControllerOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerOne.m; sourceTree = "<group>"; };
+		EF09D86C1C7ED2DA00691B8B /* ViewControllerDemoTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerDemoTwo.h; sourceTree = "<group>"; };
+		EF09D86D1C7ED2DA00691B8B /* ViewControllerDemoTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerDemoTwo.m; sourceTree = "<group>"; };
+		EF09D86F1C7ED37500691B8B /* ViewControllerDemoThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerDemoThree.h; sourceTree = "<group>"; };
+		EF09D8701C7ED37500691B8B /* ViewControllerDemoThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerDemoThree.m; sourceTree = "<group>"; };
+		EF09D8721C7EE72600691B8B /* ViewControllerDemoFour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerDemoFour.h; sourceTree = "<group>"; };
+		EF09D8731C7EE72600691B8B /* ViewControllerDemoFour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerDemoFour.m; sourceTree = "<group>"; };
+		EF09D8751C7EFAE800691B8B /* ViewControllerDemoFive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerDemoFive.h; sourceTree = "<group>"; };
+		EF09D8761C7EFAE800691B8B /* ViewControllerDemoFive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerDemoFive.m; sourceTree = "<group>"; };
+		EF09D8781C801DF700691B8B /* ViewControllerSix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerSix.h; sourceTree = "<group>"; };
+		EF09D8791C801DF700691B8B /* ViewControllerSix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerSix.m; sourceTree = "<group>"; };
+		EF52BE301C72E5270031A476 /* MaskViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaskViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF52BE341C72E5270031A476 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF52BE361C72E5270031A476 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF52BE371C72E5270031A476 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF52BE3F1C72E5270031A476 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF52BE421C72E5270031A476 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF52BE441C72E5270031A476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF52BE491C72E5270031A476 /* MaskViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaskViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF52BE4D1C72E5270031A476 /* MaskViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaskViewDemoUITests.m; sourceTree = "<group>"; };
+		EF52BE4F1C72E5270031A476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF52BE691C72FF2C0031A476 /* UIColor+DDF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+DDF.h"; sourceTree = "<group>"; };
+		EF52BE6A1C72FF2C0031A476 /* UIColor+DDF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DDF.m"; sourceTree = "<group>"; };
+		EF52BE6B1C72FF2C0031A476 /* UIDevice+CJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+CJ.h"; sourceTree = "<group>"; };
+		EF52BE6C1C72FF2C0031A476 /* UIDevice+CJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+CJ.m"; sourceTree = "<group>"; };
+		EF52BE6D1C72FF2C0031A476 /* UIImage+DDF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DDF.h"; sourceTree = "<group>"; };
+		EF52BE6E1C72FF2C0031A476 /* UIImage+DDF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DDF.m"; sourceTree = "<group>"; };
+		EF52BE6F1C72FF2C0031A476 /* UINavigationBar+CJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+CJ.h"; sourceTree = "<group>"; };
+		EF52BE701C72FF2C0031A476 /* UINavigationBar+CJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+CJ.m"; sourceTree = "<group>"; };
+		EF52BE711C72FF2C0031A476 /* UITabBar+badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+badge.h"; sourceTree = "<group>"; };
+		EF52BE721C72FF2C0031A476 /* UITabBar+badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+badge.m"; sourceTree = "<group>"; };
+		EF52BE731C72FF2C0031A476 /* UIView+AutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AutoLayout.h"; sourceTree = "<group>"; };
+		EF52BE741C72FF2C0031A476 /* UIView+AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AutoLayout.m"; sourceTree = "<group>"; };
+		EF52BE751C72FF2C0031A476 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		EF52BE761C72FF2C0031A476 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF52BE2D1C72E5270031A476 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF52BE461C72E5270031A476 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF52BE271C72E5270031A476 = {
+			isa = PBXGroup;
+			children = (
+				EF52BE321C72E5270031A476 /* MaskViewDemo */,
+				EF52BE4C1C72E5270031A476 /* MaskViewDemoUITests */,
+				EF52BE311C72E5270031A476 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF52BE311C72E5270031A476 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF52BE301C72E5270031A476 /* MaskViewDemo.app */,
+				EF52BE491C72E5270031A476 /* MaskViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF52BE321C72E5270031A476 /* MaskViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EF52BE581C72FF2C0031A476 /* CateGory */,
+				EF52BE361C72E5270031A476 /* AppDelegate.h */,
+				EF52BE371C72E5270031A476 /* AppDelegate.m */,
+				EF09D8691C7ED06E00691B8B /* ViewControllerOne.h */,
+				EF09D86A1C7ED06E00691B8B /* ViewControllerOne.m */,
+				EF09D86C1C7ED2DA00691B8B /* ViewControllerDemoTwo.h */,
+				EF09D86D1C7ED2DA00691B8B /* ViewControllerDemoTwo.m */,
+				EF09D86F1C7ED37500691B8B /* ViewControllerDemoThree.h */,
+				EF09D8701C7ED37500691B8B /* ViewControllerDemoThree.m */,
+				EF09D8721C7EE72600691B8B /* ViewControllerDemoFour.h */,
+				EF09D8731C7EE72600691B8B /* ViewControllerDemoFour.m */,
+				EF09D8751C7EFAE800691B8B /* ViewControllerDemoFive.h */,
+				EF09D8761C7EFAE800691B8B /* ViewControllerDemoFive.m */,
+				EF09D8781C801DF700691B8B /* ViewControllerSix.h */,
+				EF09D8791C801DF700691B8B /* ViewControllerSix.m */,
+				EF09D8661C7ECE9B00691B8B /* MainTableViewController.h */,
+				EF09D8671C7ECE9B00691B8B /* MainTableViewController.m */,
+				EF52BE3F1C72E5270031A476 /* Assets.xcassets */,
+				EF52BE411C72E5270031A476 /* LaunchScreen.storyboard */,
+				EF52BE441C72E5270031A476 /* Info.plist */,
+				EF52BE331C72E5270031A476 /* Supporting Files */,
+			);
+			path = MaskViewDemo;
+			sourceTree = "<group>";
+		};
+		EF52BE331C72E5270031A476 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF52BE341C72E5270031A476 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF52BE4C1C72E5270031A476 /* MaskViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF52BE4D1C72E5270031A476 /* MaskViewDemoUITests.m */,
+				EF52BE4F1C72E5270031A476 /* Info.plist */,
+			);
+			path = MaskViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		EF52BE581C72FF2C0031A476 /* CateGory */ = {
+			isa = PBXGroup;
+			children = (
+				EF52BE691C72FF2C0031A476 /* UIColor+DDF.h */,
+				EF52BE6A1C72FF2C0031A476 /* UIColor+DDF.m */,
+				EF52BE6B1C72FF2C0031A476 /* UIDevice+CJ.h */,
+				EF52BE6C1C72FF2C0031A476 /* UIDevice+CJ.m */,
+				EF52BE6D1C72FF2C0031A476 /* UIImage+DDF.h */,
+				EF52BE6E1C72FF2C0031A476 /* UIImage+DDF.m */,
+				EF52BE6F1C72FF2C0031A476 /* UINavigationBar+CJ.h */,
+				EF52BE701C72FF2C0031A476 /* UINavigationBar+CJ.m */,
+				EF52BE711C72FF2C0031A476 /* UITabBar+badge.h */,
+				EF52BE721C72FF2C0031A476 /* UITabBar+badge.m */,
+				EF52BE731C72FF2C0031A476 /* UIView+AutoLayout.h */,
+				EF52BE741C72FF2C0031A476 /* UIView+AutoLayout.m */,
+				EF52BE751C72FF2C0031A476 /* UIView+Extension.h */,
+				EF52BE761C72FF2C0031A476 /* UIView+Extension.m */,
+			);
+			path = CateGory;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF52BE2F1C72E5270031A476 /* MaskViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF52BE521C72E5270031A476 /* Build configuration list for PBXNativeTarget "MaskViewDemo" */;
+			buildPhases = (
+				EF52BE2C1C72E5270031A476 /* Sources */,
+				EF52BE2D1C72E5270031A476 /* Frameworks */,
+				EF52BE2E1C72E5270031A476 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaskViewDemo;
+			productName = MaskViewDemo;
+			productReference = EF52BE301C72E5270031A476 /* MaskViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF52BE481C72E5270031A476 /* MaskViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF52BE551C72E5270031A476 /* Build configuration list for PBXNativeTarget "MaskViewDemoUITests" */;
+			buildPhases = (
+				EF52BE451C72E5270031A476 /* Sources */,
+				EF52BE461C72E5270031A476 /* Frameworks */,
+				EF52BE471C72E5270031A476 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF52BE4B1C72E5270031A476 /* PBXTargetDependency */,
+			);
+			name = MaskViewDemoUITests;
+			productName = MaskViewDemoUITests;
+			productReference = EF52BE491C72E5270031A476 /* MaskViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF52BE281C72E5270031A476 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = CoderJee;
+				TargetAttributes = {
+					EF52BE2F1C72E5270031A476 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					EF52BE481C72E5270031A476 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EF52BE2F1C72E5270031A476;
+					};
+				};
+			};
+			buildConfigurationList = EF52BE2B1C72E5270031A476 /* Build configuration list for PBXProject "MaskViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF52BE271C72E5270031A476;
+			productRefGroup = EF52BE311C72E5270031A476 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF52BE2F1C72E5270031A476 /* MaskViewDemo */,
+				EF52BE481C72E5270031A476 /* MaskViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF52BE2E1C72E5270031A476 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF52BE431C72E5270031A476 /* LaunchScreen.storyboard in Resources */,
+				EF52BE401C72E5270031A476 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF52BE471C72E5270031A476 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF52BE2C1C72E5270031A476 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF09D8681C7ECE9B00691B8B /* MainTableViewController.m in Sources */,
+				EF09D8771C7EFAE800691B8B /* ViewControllerDemoFive.m in Sources */,
+				EF52BE851C72FF2C0031A476 /* UIView+Extension.m in Sources */,
+				EF09D8711C7ED37500691B8B /* ViewControllerDemoThree.m in Sources */,
+				EF09D86B1C7ED06E00691B8B /* ViewControllerOne.m in Sources */,
+				EF52BE801C72FF2C0031A476 /* UIDevice+CJ.m in Sources */,
+				EF52BE811C72FF2C0031A476 /* UIImage+DDF.m in Sources */,
+				EF52BE831C72FF2C0031A476 /* UITabBar+badge.m in Sources */,
+				EF52BE821C72FF2C0031A476 /* UINavigationBar+CJ.m in Sources */,
+				EF09D8741C7EE72600691B8B /* ViewControllerDemoFour.m in Sources */,
+				EF52BE841C72FF2C0031A476 /* UIView+AutoLayout.m in Sources */,
+				EF52BE381C72E5270031A476 /* AppDelegate.m in Sources */,
+				EF09D86E1C7ED2DA00691B8B /* ViewControllerDemoTwo.m in Sources */,
+				EF09D87A1C801DF700691B8B /* ViewControllerSix.m in Sources */,
+				EF52BE7F1C72FF2C0031A476 /* UIColor+DDF.m in Sources */,
+				EF52BE351C72E5270031A476 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF52BE451C72E5270031A476 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF52BE4E1C72E5270031A476 /* MaskViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF52BE4B1C72E5270031A476 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF52BE2F1C72E5270031A476 /* MaskViewDemo */;
+			targetProxy = EF52BE4A1C72E5270031A476 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF52BE411C72E5270031A476 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF52BE421C72E5270031A476 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF52BE501C72E5270031A476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF52BE511C72E5270031A476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF52BE531C72E5270031A476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MaskViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CJ.MaskViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF52BE541C72E5270031A476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MaskViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CJ.MaskViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF52BE561C72E5270031A476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MaskViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CJ.MaskViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MaskViewDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EF52BE571C72E5270031A476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MaskViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CJ.MaskViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MaskViewDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF52BE2B1C72E5270031A476 /* Build configuration list for PBXProject "MaskViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF52BE501C72E5270031A476 /* Debug */,
+				EF52BE511C72E5270031A476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF52BE521C72E5270031A476 /* Build configuration list for PBXNativeTarget "MaskViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF52BE531C72E5270031A476 /* Debug */,
+				EF52BE541C72E5270031A476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF52BE551C72E5270031A476 /* Build configuration list for PBXNativeTarget "MaskViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF52BE561C72E5270031A476 /* Debug */,
+				EF52BE571C72E5270031A476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF52BE281C72E5270031A476 /* Project object */;
+}
